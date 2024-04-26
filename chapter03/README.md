@@ -39,16 +39,49 @@ with open(FILEPATH) as file:
 
 ```python
 numbers = [1, 2, 3, 4, 5]
-numbers[0]      # 1
+
+# Accessing an item of a list
+numbers[0]             # 1
+
+# Get the length of a list
+num_length = len(numbers)
+print(num_length)      # 5
+
+# Append object to the end of the list.
+numbers.append(6)      # [1, 2, 3, 4, 5, 6]
 ```
 
 #### Conversions
 
-- The `int()` BIF converts the strings to numbers
+- The `int()` BIF converts the strings to numbers.
+- The `str()` BIF converts its argument to a string.
+- The `round()` BIF round a number to a given precision in decimal digits.
 
 ```python
 string_number = "16"
 number = int(string_number)
-print(number)
-# 16
+print(number)              # 16
+
+number = 12
+str_number = str(number)
+print(str_number)          # "12"
+
+dec = 20.2345
+rounded = round(dec, 2)    # 20.23
+
+```
+#### for loops... while loops...
+
+```python
+numbers = [1, 2, 3]
+
+# for loop...
+for num in nums:
+    print(num)
+
+# while loop...
+i = 0
+while i < len(numbers):
+    print(numbers[i])
+    i = i + 1
 ```
