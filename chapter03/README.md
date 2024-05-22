@@ -1,4 +1,4 @@
-# Learnings form Chapter 02
+# Learnings form Chapter 03
 
 #### Read and close a file using `with` and `open()`. 
 
