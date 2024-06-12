@@ -1,6 +1,4 @@
 import statistics
-
-from nbformat import convert
 import hfpy_utils
 
 FOLDER = "../chapter03/swimdata/"
